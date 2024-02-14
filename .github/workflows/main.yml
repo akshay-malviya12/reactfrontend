@@ -22,9 +22,12 @@ jobs:
         with:
           node-version: 16
 
-      - name: Install dependencies
-        uses: npm install
-
+      - name: Install Dependencies
+        run: npm install
+        
+      - name: Run Tests
+        run: npm test
+        
       - name: Build project
         run: npm run build
 
