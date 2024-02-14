@@ -5,6 +5,14 @@
   "type":"module",
   "description": "",
   "main": "index.js",
+  "scripts": {
+    "start":"react-sctipts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "bulid":"react-sctipts build",
+    "test":"react-sctipts test",
+    "eject":"react-sctipts eject"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
